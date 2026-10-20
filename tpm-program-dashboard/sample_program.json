@@ -1,0 +1,57 @@
+{
+  "name": "AI Feature Delivery — Demonstration Program",
+  "tasks": [
+    {
+      "id": "API-1",
+      "title": "API contract agreed",
+      "team": "Backend",
+      "status": "completed",
+      "due_date": "2026-10-05",
+      "depends_on": [],
+      "risk_score": 1
+    },
+    {
+      "id": "DATA-1",
+      "title": "Synthetic dataset validated",
+      "team": "Data",
+      "status": "completed",
+      "due_date": "2026-10-09",
+      "depends_on": [],
+      "risk_score": 1
+    },
+    {
+      "id": "ML-1",
+      "title": "Evaluation baseline",
+      "team": "AI/ML",
+      "status": "in_progress",
+      "due_date": "2026-10-17",
+      "depends_on": [
+        "DATA-1"
+      ],
+      "risk_score": 4
+    },
+    {
+      "id": "FE-1",
+      "title": "Frontend feature integration",
+      "team": "Frontend",
+      "status": "planned",
+      "due_date": "2026-10-23",
+      "depends_on": [
+        "API-1",
+        "ML-1"
+      ],
+      "risk_score": 3
+    },
+    {
+      "id": "QA-1",
+      "title": "Launch readiness review",
+      "team": "QA / Product",
+      "status": "planned",
+      "due_date": "2026-10-28",
+      "depends_on": [
+        "FE-1"
+      ],
+      "risk_score": 2
+    }
+  ]
+}
