@@ -1,8 +1,11 @@
-# Espacio de experimentación
+# Experiment Workspace
 
-Este repositorio se conserva como espacio de pruebas. Todavía no tiene un proyecto público documentado para presentar como producto o caso profesional.
+An exploratory repository, not a documented product or a featured professional case study.
 
-👉 [Ver mis proyectos seleccionados](https://krissortegal83.github.io/)
+[Explore my selected projects](https://krissortegal83.github.io/)
 
-Cuando un experimento tenga un propósito claro, instrucciones y pruebas, se podrá presentar con un nombre que explique qué resuelve.
+A useful experiment can become a public project once it has a clear purpose, instructions and tests.
 
+## En español
+
+Espacio de pruebas. Los proyectos seleccionados y sus demos están en el sitio principal.
